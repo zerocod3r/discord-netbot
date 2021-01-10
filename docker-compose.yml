@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  bot:
+    container_name: "netbot"
+    build: .
+    volumes:
+      - ./config.json:/netbot/config.json
