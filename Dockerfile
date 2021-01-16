@@ -1,9 +1,5 @@
-FROM python:3.7-alpine
-LABEL maintainer="AlexFlipnote <root@alexflipnote.dev>"
-
-RUN apk update && apk upgrade
-
-RUN apk add --no-cache git make build-base linux-headers
+FROM python:3.8-alpine
+LABEL maintainer="zerocod3r"
 
 WORKDIR /discord_bot
 
