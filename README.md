@@ -12,11 +12,11 @@ All you need to know about the library is defined inside here, even code that I 
 ## How to setup
 1. Make a bot [here](https://discordapp.com/developers/applications/me) and grab the token
 
-2. Rename the file **config.json.example** to **config.json**, then fill in the required spots, such as token, prefix and game
+2. To install what you need, do **pip install -r requirements.txt**<br>
 
-3. To install what you need, do **pip install -r requirements.txt**<br>
+3. Start the bot by having the cmd/terminal inside the bot folder and type **python index.py**
 
-4. Start the bot by having the cmd/terminal inside the bot folder and type **python index.py**
+4. Setup environment variable NETBOTTOKEN=token
 
 5. You're done, enjoy your bot!
 

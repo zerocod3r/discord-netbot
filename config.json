@@ -1,0 +1,14 @@
+{
+  "join_message": "hmmm....",
+  "owners": [
+    797386066164187157
+  ],
+  "prefix": [
+    "!"
+  ],
+  "activity": "games!",
+  "activity_type": "playing|watching|listening|competing",
+  "status_type": "online|idle|dnd",
+  "content_fetch_api": "content_fetch_api",
+  "version": "0.0.1"
+}

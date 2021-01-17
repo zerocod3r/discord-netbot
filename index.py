@@ -5,6 +5,7 @@ from utils import default
 from utils.data import Bot, HelpFormat
 
 config = default.config()
+config['token'] = os.environ['NETBOTTOKEN']
 print("Logging in...")
 
 bot = Bot(
