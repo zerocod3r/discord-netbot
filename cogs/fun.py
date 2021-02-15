@@ -287,6 +287,11 @@ class Fun_Commands(commands.Cog):
         else:
             await ctx.send(f"{slotmachine} No match, you lost 😢")
 
+    async def samaj(self, ctx):
+        """Sends samaj meme"""
+        url = "https://cdn.discordapp.com/attachments/692068088891441182/810806287104213022/society.png"
+        await ctx.send(url)
+
 
 def setup(bot):
     bot.add_cog(Fun_Commands(bot))
