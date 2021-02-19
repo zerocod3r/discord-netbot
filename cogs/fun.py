@@ -293,6 +293,16 @@ class Fun_Commands(commands.Cog):
         url = "https://cdn.discordapp.com/attachments/692068088891441182/810806287104213022/society.png"
         await ctx.send(url)
 
+    @commands.command()
+    async def weeb(self, ctx):
+        """Sends anime slur"""
+        message = "Ye lo ek aur chutmarika japani anime wala aa gya. Tum jese hizde har kisi server pe \
+                    apna anime gyaan jhaadte rehte ho kyonki tum randi k pillo ko koi aur kaam hai hi \
+                    nahi. nepali cartoon ke chode jab dekho wo udaas se cartoon dekhte rehte aur khudko \
+                    unse compare krta rehte ho. Koi dhang ka kaam karle yhan discord pe apni maa chudane \
+                    se behtar .bhaag teri maiyya ki chut bhak"
+        await ctx.send(message)
+
 
 def setup(bot):
     bot.add_cog(Fun_Commands(bot))
