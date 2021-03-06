@@ -19,36 +19,3 @@ All you need to know about the library is defined inside here, even code that I 
 4. Setup environment variable NETBOTTOKEN=token
 
 5. You're done, enjoy your bot!
-
-# Optional tools
-### Flake8
-Flake8 is a tool that helps you keep your code clean. Most coding softwares will have a plugin that supports this Python module so it can be integrated with your IDE. To install it, simply do `pip install flake8`. If you're using python 3.7, install by doing `pip install -e git+https://gitlab.com/pycqa/flake8#egg=flake8`
-
-### PM2
-PM2 is an alternative script provided by NodeJS, which will reboot your bot whenever it crashes and keep it up with a nice status. You can install it by doing `npm install -g pm2` and you should be done.
-```
-# Start the bot
-pm2 start pm2.json
-
-# Tips on common commands
-pm2 <command> [name]
-  start discord_bot.py    Run the bot again if it's offline
-  list                    Get a full list of all available services
-  stop discord_bot.py     Stop the bot
-  reboot discord_bot.py   Reboot the bot
-```
-
-### Docker
-Docker is an alternative to run the bot 24/7 and always reboot again whenever it crashed. You can find the install manual [here](https://docs.docker.com/install/). You don't *have* to get it, but if you're used to having Docker, it's available at least.
-```
-# Build and run the Dockerfile
-docker-compose up -d --build
-
-# Tips on common commands
-docker-compose <command>
-  ps      Check if bot is online or not (list)
-  down    Shut down the bot
-  reboot  Reboot the bot without shutting it down or rebuilding
-  logs    Check the logs made by the bot.
-```
-
